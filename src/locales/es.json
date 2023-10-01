@@ -1,0 +1,105 @@
+{
+  "select-language": "Seleccione el idioma",
+  "login-welcome": "Bienvenido",
+  "login-initSesion": "Iniciar sesión",
+  "login-email": "Correo",
+  "login-password": "Contraseña",
+  "login-forgot": "Olvidé mi contraseña",
+  "login-remember": "Recordar contraseña",
+  "login-go": "Entrar",
+  "dashboard": {
+    "title": "Welcome",
+    "subtitle": "We are very happy to see it again.",
+    "options": {
+      "currentMonth": "Mes Actual",
+      "lastSemester": "Últimos 6 meses"
+    },
+    "labels": {
+      "yes": "Si",
+      "selectRange": "Rangos Predefinidos",
+      "no": "No",
+      "dateRange": "Rango de fechas a consultar"
+    }
+  },
+  "auth": {
+    "title": "Únete a nosotros ahora",
+    "subtitle": "Empieza creando tu cuenta",
+    "label": {
+      "promotional": "Recibe ofertas promocionales"
+    },
+    "action": {
+      "login": "Ya tengo una cuenta",
+      "signup": "Registrarse"
+    },
+    "placeholder": {
+      "name": "Nombre",
+      "email": "Dirección de correo electrónico",
+      "password": "Contraseña",
+      "passwordCheck": "Verificación de contraseña"
+    },
+    "user": {
+      "title": "",
+      "subtitle": "Modifica los campos que quieras actualizar para este usuario.",
+      "sesions": "Lo sentimos, debe iniciar sesión para acceder a esta sección (todo funcionará)",
+      "emails": "Error de autenticación. email o contraseña incorrecta"
+    },
+    "errors": {
+      "name": {
+        "required": "Su nombre es obligatorio"
+      },
+      "email": {
+        "required": "Introduzca su correo electrónico, será necesario para iniciar la sesión",
+        "format": "Por favor, introduzca un correo electrónico válido"
+      },
+      "password": {
+        "required": "Introduzca su contraseña con al menos 8 caracteres, será necesaria para iniciar la sesión",
+        "length": "La contraseña debe contener al menos 8 caracteres"
+      },
+      "passwordCheck": {
+        "required": "Por favor, confirme su contraseña",
+        "match": "La contraseña no coincide"
+      },
+      "nocreate": "Hubo un error, no se pudo crear el usuario!"
+    }
+  },
+  "utils": {
+    "vuegoodtable": {
+      "columns": {
+        "flebotomista": "Flebotomista",
+        "paymentReference": "Referencia de Pago",
+        "paidAmount": "Monto Pagado",
+        "paymentResult": "Respuesta de Pago",
+        "paymentDate": "Fecha de Pago",
+        "cardType": "Tipo de Tarjeta",
+        "cardNumber": "Número de Tarjeta"
+      }
+    },
+    "headerCards": {
+      "detailsCards": {
+        "QuoteInformation": {
+          "premiumNeta": "Prima Neta",
+          "comision": "Comisión"
+        },
+        "paymentInformation": {
+          "titleV2": "Información de Recibo"
+        }
+      }
+    },
+    "notifMessages": {
+      "reportWarning": ""
+    },
+    "buttons": {
+      "ExportCSV": "Exportar Excel"
+    }
+  },
+  "sidebar": {
+    "subItems": {
+      "paymentConsult": "Consulta de Pagos",
+      "paymentDetail": "Detalle de Pago",
+      "novo": "Nueva",
+      "autogestaoTitle": "Sistema de Autogestión",
+      "reportsConsultClosedTurn": "Venta de Turnos",
+      "reportsConsultTurn": "Cierre de Turnos"
+    }
+  }
+}

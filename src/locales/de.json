@@ -1,0 +1,576 @@
+{
+  "select-language": "Selecione o idioma",
+  "login": {
+    "login-welcome": "Bem-vindo",
+    "login-initSesion": "Iniciar sessão",
+    "login-email": "O email",
+    "login-password": "Senha",
+    "login-forgot": "Esqueci minha senha",
+    "login-remember": "Lembrar senha",
+    "login-go": "Entrar"
+  },
+  "dashboard": {
+    "title": "Bem-vind{add}",
+    "subtitle": "Estamos muito felizes em vê-l{add} novamente.",
+    "options": {
+      "today": "Hoje",
+      "yesterday": "Ontem",
+      "last_7_days": "Últimos 7 dias",
+      "last_30_days": "Últimos 30 dias",
+      "last_90_days": "Últimos 90 dias",
+      "last_month": "Mês passado",
+      "last_year": "Ano passado",
+      "week_to_date": "Semana até à data",
+      "month_to_date": "Mês até à data",
+      "year_to_date": "Ano até à data",
+      "currentMonth": "Mês actual",
+      "lastSemester": "Últimos 6 meses"
+    },
+    "labels": {
+      "products": "Produtos",
+      "totalActivePolicies": "Total de Certificados activos",
+      "totalSoldPolicies": "Total de Certificados Vendidos",
+      "totalCanceledPolicies": "Total de Certificados Canceladas",
+      "ageAverage": "Idade média",
+      "region": "Região",
+      "created": "Criado",
+      "status": "Status",
+      "active": "Ativo",
+      "inactive": "Inativo",
+      "totalActivePremium": "Montante do prémio",
+      "totalCanceledPremium": "Montante Cancelado",
+      "total": "Total",
+      "manualRange": "Gama personalizada",
+      "yes": "Sim",
+      "selectRange": "Gamas pré-definidas",
+      "no": "No",
+      "dateRange": "Intervalo de datas a consultar",
+      "policynotexist": "A política não existe"
+    }
+  },
+  "sidebar": {
+    "titles": {
+      "home": "Inicio",
+      "policies": "Apólices",
+      "reports": "Reportes",
+      "users": "Usuário",
+      "dashboardd": "Dashboards"
+    },
+    "subItems": {
+      "policyConsult": "Consultar Apólices",
+      "historyConsult": "Consultar Histórico",
+      "productsConsult": "Consult Products",
+      "paymentsConsult": "Consultar Pagamentos",
+      "reportsConsult": "Consultar reportes",
+      "userManagement": "Gestão Usuário",
+      "PolicyDetail": "Lista Segurados",
+      "InsuredConsult": "Consulta Segurado",
+      "saleGeneration": "Gerar Venda",
+      "loadManagement": "Gerenciamento De Carga",
+      "novo": "Novo",
+      "autogestaoTitle": "Sistema de autogestão",
+      "reportsConsultClosedTurn": "Venta de Turnos",
+      "reportsConsultClosedTurnedTurn": "Venta de Trunos",
+      "reportsConsultTurn": "Cierre de Turnos"
+    },
+    "profileDropdown": {
+      "logout": "Sair"
+    }
+  },
+  "utils": {
+    "vuegoodtable": {
+      "config": {
+        "rowsPerPage": "Registros por página",
+        "of": "De",
+        "previous": "Anterior",
+        "next": "Seguinte",
+        "search": "Tabela de pesquisa"
+      },
+      "columns": {
+        "PolicyNumber": "Certificado",
+        "discountMethod": "Pagamento",
+        "Plan": "Plano do Sponsor",
+        "Award": "Prêmio",
+        "productId": "ID do produto",
+        "StartValidity": "Início de Vigência",
+        "EndValidity": "Fim de Vigência",
+        "name": "Nome completo",
+        "type": "Tipo de Seguro",
+        "policy": "Apólice AIG",
+        "status": "Status",
+        "action": "Ação",
+        "PurchaseId": "Purchase Id",
+        "PatientId": "Patient Id",
+        "statusUello": {
+          "active": "Ativa",
+          "expired": "Expirada",
+          "cancelled": "Cancelado"
+        },
+        "statusminimeds": {
+          "active": "Ativa",
+          "question": "EM EMISSÃO",
+          "emited": "Emitida",
+          "cancelled": "Cancelada",
+          "slope": "Pendente"
+        },
+        "statusReport": {
+          "active": "Ativa",
+          "cancelled": "Cancelada"
+        },
+        "statusUser": {
+          "active": "Ativa",
+          "cancelled": "Inactiva"
+        },
+        "pagamento": "Forma de Pagamento",
+        "statusminimed": "Status",
+        "iniciovigencia": "Início de Vigência",
+        "flebotomista": "Flebotomista",
+        "fimvigencia": "Fim de Vigência",
+        "statusfed": {
+          "approve": "Aprobada"
+        },
+        "statusFederacion": {
+          "approve": "Aprobada",
+          "rejected": "Rechazada"
+        }
+      }
+    },
+    "buttons": {
+      "consult": "Consultar",
+      "goBack": "Voltar",
+      "createUser": "Criar Usuário",
+      "generateReport": "Gerar relatório",
+      "seeDetails": "Ver dados",
+      "downloadCertificate": "Baixar Certificado",
+      "downloadAcuse": "Download Acuse",
+      "downloadCaratula": "Download Caratula",
+      "update": "Update",
+      "cancel": "Cancel",
+      "ExportCSV": "Exportar Excel"
+    },
+    "headerCards": {
+      "title": "Período de Consulta",
+      "subtitle": "Selecione o período de consulta.",
+      "titleV2": "Select preferred filter",
+      "subtitleV2": "To be able to consult policies, first pick one of the available filters.",
+      "switchLabel1": "Date Range",
+      "switchLabel2": "Quick Search",
+      "detailsCards": {
+        "currentQuote": {
+          "title": "Current Quote Information",
+          "contractorName": "Contractor Name",
+          "documentNumber": "Document Number",
+          "transactionType": "Transaction Type",
+          "names": "Names",
+          "lastNames": "Last Names",
+          "document": "Document",
+          "fullname": "Nome",
+          "sponsorName": "Sponsor Name"
+        },
+        "selectedProduct": {
+          "title": "Selected Product",
+          "campaignCode": "Campaign Code",
+          "productCode": "Código Produto",
+          "coverageCode": "CoverageCode",
+          "iva": "VAT",
+          "netPremium": "Net Premium",
+          "paidPremium": "Paid Premium"
+        },
+        "paymentInformation": {
+          "title": "Informação de Pagamento",
+          "accountType": "Forma de Pagamento",
+          "cardNumber": "Numero de Conta",
+          "frequency": "Frequency",
+          "cycleDay": "Cycle Day",
+          "accountName": "Nome da conta",
+          "expiredMonth": "Mês de Vigência",
+          "expiredYear": "Ano de Expiração",
+          "cardType": "Card Type",
+          "nsu": "NSU",
+          "aprovalcode": "Cód. Aprovação",
+          "paymentFrequency": "Payment Frequency",
+          "paymentMethod": "Payment Method",
+          "monthly": "Mensal",
+          "Annual": "Anual"
+        },
+        "QuoteInformation": {
+          "title": "Quote Information",
+          "certificateNumber": "Certificate Number",
+          "status": "Status",
+          "planCode": "Plan Code",
+          "storeName": "Store Name",
+          "effectiveDate": "Effective Date",
+          "movementDate": "Movement Date",
+          "renewalDate": "Renewal Date",
+          "paymentMethod": "Payment Method",
+          "policyNumber": "Policy Number",
+          "plan": "Plan",
+          "campaign": "Campaign",
+          "premium": "Prêmio"
+        },
+        "generalClientInformation": {
+          "title": "Informações gerais do cliente",
+          "names": "Nome",
+          "firstLastName": "First Last Name",
+          "secondLastName": "Second Last Name",
+          "sex": "Sexo",
+          "dateOfBirth": "Data de Nascimento",
+          "datef2m": "Data de emissão f2m",
+          "age": "Idade",
+          "ocupation": "Ocupação",
+          "beneficiary": "Beneficiary",
+          "insured": "Insured",
+          "insuranceType": "Insurance Type"
+        },
+        "locationInformation": {
+          "title": "Informações de localização",
+          "streetAndNumber": "Rua e número",
+          "typehousing": "Tipo de residência.",
+          "colony": "Tipo de residência",
+          "city": "Cidade",
+          "state": "Estado",
+          "zipCode": "Código Postal",
+          "complement": "Complemento",
+          "barrio": "Bairro",
+          "address": "Direção"
+        },
+        "contactInformation": {
+          "title": "Informação de contato",
+          "mobilePhone": "Celular",
+          "officePhone": "Telefone residencial",
+          "email": "E-mail",
+          "code": "Código",
+          "postalCode": "Código Postal"
+        },
+        "InformationPolicy": {
+          "title1": "Detalle de Apólice",
+          "title": "Dados do Seguro",
+          "names": "Nome completo",
+          "napolice": "No. Certificado/Bilhete",
+          "master_policy": "No. Apólice Master AIG",
+          "datenow": "Data e Hora de Emissão",
+          "typestart": "Tipo Vigência",
+          "typeId": "Tipo de ID",
+          "identificationNumber": "Número de Identificação",
+          "titlepolicy": "Detalhe da Apólice",
+          "policyNumber": "Número Certificado",
+          "startofalidity": "Início de Vigência",
+          "PlanId": "Plano",
+          "typecoverage": "Tipo de Cobertura",
+          "capital": "Capital Segurado / Limite",
+          "franquia": "Franquia",
+          "shortage": "Carência",
+          "dailyNumber": "Numero Diárias",
+          "dailyValue": "Valor Diária",
+          "serviceAssitence": "Serviços de Assistência",
+          "capitalization": "Capitalização",
+          "PlaneCapital": "Plano de Capitalização",
+          "lukyNumber": "Número da Sorte",
+          "insuredyName": "Nome Segurado",
+          "insuredLastname": "Sobrenome Segurado",
+          "idInsured": "ID Segurado",
+          "beneficiaryName": "Nome Beneficiário",
+          "beneficiaryLastname": "Sobrenome Beneficiário",
+          "idBeneficiary": "ID Beneficiário",
+          "participationBeneficiary": "% Part Beneficiário",
+          "typetransaction": "Type of Transaction",
+          "netPremium": "Prima Neta",
+          "iva": "IVA",
+          "Awardfull": "Prima Total",
+          "PurchaseId": "Purchase Id",
+          "PatientId": "Patient Id",
+          "flebotomist": "flebotomist"
+        }
+      }
+    },
+    "tooltips": {
+      "deactivateUser": "Deactivate User",
+      "deleteUser": "Delete User",
+      "seeDetails": "Ver dados",
+      "cancelPolicy": "Cancel Policy",
+      "editBeneficiary": "Edit Beneficiary"
+    },
+    "notifMessages": {
+      "reportWarning": "Não encontramos nenhuma apólice!"
+    },
+    "sweetAlertMessages": {},
+    "emptyDataPlaceholders": {
+      "title": "No Available Data",
+      "paymentTabSubtitle": "We did not find any paid installments for this policy in our system.",
+      "additionalInsuredTabSubtitle": "We did not find any additional insured for this policy in our system.",
+      "mainInsuredTabSubtitle": "We did not find any main insured for this policy in our system."
+    },
+    "tabs": {
+      "beneficiaries": {
+        "name": "Beneficiaries",
+        "tableTitle": "Beneficiaries Information",
+        "tableColumns": {
+          "name": "Nome",
+          "relation": "Relation",
+          "endDate": "End Date",
+          "percentage": "Percentage",
+          "benefitamount": "Valor do benefício",
+          "action": "Ação",
+          "idDocument": "Número de Identificação",
+          "gender": "Gênero",
+          "dob": "Data de Nascimento",
+          "age": "Idade",
+          "years": "anos"
+        },
+        "detailsModal": "Beneficiary Details",
+        "editModal": {
+          "title": "Edit Beneficiary",
+          "messageTitleSuccess": "Percentages Distributed Correctly!",
+          "messageTitleError": "Total Percentages should be equal to 100%",
+          "subtitleSuccess": "Percentages Total",
+          "subtitleError": "Percentage Required"
+        },
+        "title": " Informação do Beneficiário"
+      },
+      "coverages": {
+        "name": "Coverages",
+        "tableTitle": "Coverages Information",
+        "tableColumns": {
+          "coverageName": "Coverage Name",
+          "planIdentification": "Plan Identification",
+          "planFee": "Plan Fee",
+          "coveragePremium": "Coverage Premium",
+          "benefitAmount": "Benefit Amount",
+          "paymentMethod": "Payment Method",
+          "paymentType": "Payment Type"
+        }
+      },
+      "payments": {},
+      "mainInsured": {},
+      "Depentents": {
+        "title": "Informação do Titular",
+        "insuredHolder": "Segurado Titular",
+        "IdentificationNumber": "Número de Identificação",
+        "Dateofbirth": "Data de nascimento",
+        "Age": "Idade",
+        "Gender": "Gênero",
+        "Holder": "Titular"
+      },
+      "coverage": {
+        "tableColumns": {
+          "description": "Descrição",
+          "capitalInsured": "Capital Segurado",
+          "netPolicyPremium": " Prêmio Líquido da Apólice",
+          "taxFinancialOperations": "Operações Financeiras Fiscais",
+          "totalPolicyPremium": "Prêmio Total da Apólice"
+        },
+        "title": "Informação do Cobertura"
+      },
+      "messages": {
+        "noData": "Sem dados para exibir"
+      },
+      "titular": {
+        "title": "Informação do Titular",
+        "detailsModal": " Detalhes do Titular"
+      },
+      "additionalInsured": {
+        "title": "Informações Adicionais do Segurado",
+        "detailsModal": " Detalhes Adicionais do Segurado"
+      },
+      "assists": {
+        "title": "Informações de assistência",
+        "tableColumns": {
+          "actions": "Ações",
+          "description": "Descrição",
+          "limits": "Limites"
+        }
+      },
+      "stimulant": {
+        "title": "Informação de Estimulante"
+      }
+    },
+    "modals": {
+      "dependent": {
+        "idNumber": "Número de Identificação",
+        "genre": "Gênero",
+        "dob": "Data de Nascimento",
+        "age": "Idade",
+        "title": "Detalle de Dependiente"
+      }
+    },
+    "general": {
+      "male": "Masculino",
+      "female": "Fêmea",
+      "anios": "anos"
+    }
+  },
+  "bra-region": {},
+  "reports": {
+    "pageTitle": "AIG BRA - Relatório de Vendas",
+    "header": {
+      "title": "Preencha os campos obrigatórios",
+      "subtitle": "Para poder gerar o relatório de vendas, selecione o periodo para consultar e o Sponsor.",
+      "initDate": "A partir de",
+      "endDate": "Para",
+      "selectSponsor": "Selecione um patrocinador"
+    },
+    "emptyData": {
+      "title": "Sem dados disponíveis",
+      "subtitle": "Para gerar dados, preencha os campos acima."
+    },
+    "tableColumns": {
+      "policyAIG": "AIG Apólice",
+      "campaign": "Campanha",
+      "certificate": "Certificado",
+      "name": "Nome",
+      "lastName": "Sobrenome",
+      "id": "ID Número",
+      "dateOfBirth": "Data de nascimento",
+      "emissionDate": "Data de emissão",
+      "Status": "Status",
+      "cancelationDate": "Data de cancelamento",
+      "cancelationReason": "Motivo do cancelamento"
+    }
+  },
+  "users": {
+    "list": {
+      "pageTitle": "Gestão de Usuários ",
+      "tableColumns": {
+        "fullname": "Nome completo",
+        "name": "Nome",
+        "lastName": "sobrenome",
+        "createdBy": "Criado por",
+        "deactivationDate": "Data de desativação",
+        "deactivationReason": "Motivo de desativação",
+        "allowedAccess": "Acessos permitidos",
+        "role": "Função",
+        "email": "E-mail",
+        "iniciative": "iniciativa",
+        "profile": "Perfis"
+      }
+    },
+    "create": {
+      "pageTitle": "Criar Usuário",
+      "form": {
+        "name": "Nome",
+        "lastName": "Sobrenome",
+        "email": "E-mail",
+        "password": "Senha",
+        "role": "Função",
+        "profile": "Perfil",
+        "selectCountry": "Selecione o pais",
+        "selectRoles": "Selecione pelo menos uma Iniciativa"
+      }
+    }
+  },
+  "auth": {
+    "title": "Jetzt mitmachen",
+    "subtitle": "Beginnen Sie mit der Erstellung Ihres Kontos",
+    "label": {
+      "promotional": "Erhalten Sie Werbeangebote"
+    },
+    "action": {
+      "login": "Ich habe bereits ein Konto",
+      "signup": "Registrieren"
+    },
+    "placeholder": {
+      "name": "Name",
+      "email": "Mailadresse",
+      "password": "Passwort",
+      "passwordCheck": "Passwortüberprüfung"
+    },
+    "user": {
+      "title": "",
+      "subtitle": "Modifique os campos que deseja atualizar para este usuário.",
+      "sesions": "Desculpe, você deve fazer login para acessar esta seção (Qualquer coisa funcionará)",
+      "emails": "Erro de autenticação. Correio electrónico ou palavra-passe incorrectos"
+    },
+    "errors": {
+      "name": {
+        "required": "Ihr Name, Vorname ist erforderlich"
+      },
+      "email": {
+        "required": "Geben Sie Ihre E-Mail ein, sie wird für die Anmeldung benötigt",
+        "format": "Bitte geben Sie eine gültige E-Mail ein"
+      },
+      "password": {
+        "required": "Geben Sie Ihr Passwort mit mindestens 8 Zeichen ein, es wird für die Anmeldung benötigt",
+        "length": "Das Passwort sollte mindestens 8 Zeichen enthalten"
+      },
+      "passwordCheck": {
+        "required": "Bitte bestätigen Sie Ihr Passwort",
+        "match": "Das Passwort stimmt nicht überein"
+      },
+      "nocreate": "Ocorreu um erro, não foi possível criar um usuário!"
+    }
+  },
+  "config": {
+    "title": "Contexto",
+    "ChangePassword": "Mudar senha",
+    "text": "Insira uma nova senha que atenda aos parâmetros e confirme-a.",
+    "newPassword": "Nova senha",
+    "confirmPassword": "confirmar senha",
+    "parameters": {
+      "title": "Parâmetros:",
+      "containsLowercase": "A senha deve conter pelo menos uma letra minúscula.",
+      "containsNumber": "A senha deve conter pelo menos um número.",
+      "containsUppercase": "A senha deve conter pelo menos uma letra maiúscula.",
+      "containsSpecial": "A senha deve conter pelo menos um caractere especial.",
+      "characterMin": "A senha deve conter no mínimo 8 caracteres.",
+      "users": {
+        "supervisor": "Productos Mastes-Operacao Master",
+        "visor": "Operacoes Call Center-Sinistros-Corretor Emissao",
+        "emisor": "Corretor Master"
+      }
+    }
+  },
+  "selectAnOption": "Seleccione uma opção",
+  "autogestao": {
+    "step1": "Patrocinador",
+    "step2": "Produto",
+    "step3": "Campanha",
+    "step4": "Plano",
+    "step5": "Contas e configurações",
+    "summary": "Resumo",
+    "next": "Próximo",
+    "before": "Voltar",
+    "form": {
+      "sponsor": {
+        "name": "Nome",
+        "code": "Código"
+      }
+    }
+  },
+  "monitoring": {
+    "title": "Rastreamento de carga",
+    "subtitle": "Gerar rastreamento",
+    "sutitleDate": "Seleção de data",
+    "tabs": {
+      "records": "Registros",
+      "resume": "Retomar"
+    },
+    "body": "Para consultar os cadastros, primeiro escolha o estado e a data desejada.",
+    "bodyDate": "Para consultar o resumo, escolha primeiro a data pretendida.",
+    "optionStates": {
+      "noProccess": "Não processado",
+      "proccess": "Processado",
+      "fails": "Fracassado"
+    },
+    "columnsTitle": {
+      "group": "Grupo",
+      "branch": "Marca",
+      "id_number": "Número do bilhete e/ou certificado",
+      "rate": "tipo de taxa",
+      "last_name_1": "Sobrenome paterno",
+      "last_name_2": "Sobrenome materno",
+      "name": "Nome",
+      "premium": "Prêmio total",
+      "sale_date": "Data de venda",
+      "ride_start_date": "Data e hora de início da viagem",
+      "ride_end_date": "Data e hora do fim da viagem",
+      "address_1": "Origem da viagem",
+      "address_2": "Destino del viaje",
+      "user_branch": "Canal de vendas",
+      "transac_type": "Tipo de transação",
+      "boarding": "Aproximação",
+      "transac_date": "Data de envio da transação",
+      "file_name": "Nome do arquivo",
+      "state": "State"
+    }
+  }
+}

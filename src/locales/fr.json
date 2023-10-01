@@ -1,0 +1,253 @@
+{
+  "select-language": "Sélectionnez une langue",
+  "login-welcome": "Bienvenue",
+  "login-initSesion": "Iniciar sessão",
+  "login-email": "O email",
+  "login-password": "Senha",
+  "login-forgot": "Esqueci minha senha",
+  "login-remember": "Lembrar senha",
+  "login-go": "Entrar",
+  "dashboard": {
+    "title": "Welcome",
+    "subtitle": "We are very happy to see it again.",
+    "labels": {
+      "selectRange": "Plages prédéfinies"
+    }
+  },
+  "sidebar": {
+    "titles": {
+      "policies": "Policies",
+      "reports": "Reports",
+      "users": "Users"
+    },
+    "subItems": {
+      "policyConsult": "Consult Policy",
+      "historyConsult": "Consult Historical",
+      "productsConsult": "Consult Products",
+      "paymentsConsult": "Consult Payments",
+      "reportsConsult": "Consult Reports",
+      "userManagement": "User Management"
+    },
+    "profileDropdown": {
+      "logout": "Log Out"
+    }
+  },
+  "utils": {
+    "vuegoodtable": {
+      "config": {
+        "rowsPerPage": "Linhas por página",
+        "of": "De",
+        "previous": "Anterior",
+        "next": "Próxima",
+        "search": "Tabela de pesquisa"
+      },
+      "columns": {
+        "PolicyNumber": "Número da Apólice",
+        "discountMethod": "Método de desconto",
+        "Plan": "Plano",
+        "Award": "Prêmio",
+        "productId": "ID do produto",
+        "StartValidity": "Início de validade",
+        "name": "Nome completo",
+        "status": "Status",
+        "action": "Açao",
+        "statusUello": {
+          "active": "Ativa",
+          "expired": "Expirada",
+          "cancelled": "Cancelada"
+        },
+        "pagamento": "Forma de Pagamento",
+        "statusminimed": "Estado",
+        "iniciovigencia": "Início de Vigência",
+        "fimvigencia": "Fim de Vigência"
+      }
+    },
+    "buttons": {
+      "consult": "Consult",
+      "goBack": "Go Back",
+      "createUser": "Create User",
+      "generateReport": "Generate Report",
+      "seeDetails": "See Details",
+      "downloadCertificate": "Download Certificate",
+      "downloadAcuse": "Download Acuse",
+      "downloadCaratula": "Download Caratula",
+      "update": "Update",
+      "cancel": "Cancel",
+      "ExportCSV": "Exportar Excel"
+    },
+    "headerCards": {
+      "title": "Select a date range",
+      "subtitle": "To be able to consult policies, first pick the desire date range.",
+      "titleV2": "Select preferred filter",
+      "subtitleV2": "To be able to consult policies, first pick one of the available filters.",
+      "switchLabel1": "Date Range",
+      "switchLabel2": "Quick Search",
+      "detailsCards": {
+        "currentQuote": {
+          "title": "Current Quote Information",
+          "contractorName": "Contractor Name",
+          "documentNumber": "Document Number",
+          "transactionType": "Transaction Type",
+          "names": "Names",
+          "lastNames": "Last Names",
+          "document": "Document",
+          "fullname": "Fullname",
+          "sponsorName": "Sponsor Name"
+        },
+        "selectedProduct": {
+          "title": "Selected Product",
+          "campaignCode": "Campaign Code",
+          "productCode": "Product Code",
+          "coverageCode": "CoverageCode",
+          "iva": "VAT",
+          "netPremium": "Net Premium",
+          "paidPremium": "Paid Premium"
+        },
+        "paymentInformation": {
+          "title": "Payment Information",
+          "accountType": "Account Type",
+          "cardNumber": "Card Number",
+          "frequency": "Frequency",
+          "cycleDay": "Cycle Day",
+          "accountName": "Account Name",
+          "expiredMonth": "Expired Month",
+          "expiredYear": "Expired Year",
+          "cardType": "Card Type",
+          "paymentFrequency": "Payment Frequency",
+          "paymentMethod": "Payment Method"
+        },
+        "QuoteInformation": {
+          "title": "Quote Information",
+          "certificateNumber": "Certificate Number",
+          "status": "Status",
+          "planCode": "Plan Code",
+          "storeName": "Store Name",
+          "effectiveDate": "Effective Date",
+          "movementDate": "Movement Date",
+          "renewalDate": "Renewal Date",
+          "paymentMethod": "Payment Method",
+          "policyNumber": "Policy Number",
+          "plan": "Plan",
+          "campaign": "Campaign",
+          "premium": "Premium"
+        },
+        "generalClientInformation": {
+          "title": "General Client Information",
+          "names": "Names",
+          "firstLastName": "First Last Name",
+          "secondLastName": "Second Last Name",
+          "sex": "Genre",
+          "dateOfBirth": "Date of Birth",
+          "age": "Age",
+          "ocupation": "Ocupation",
+          "beneficiary": "Beneficiary",
+          "insured": "Insured",
+          "insuranceType": "Insurance Type"
+        },
+        "locationInformation": {
+          "title": "Location Information",
+          "streetAndNumber": "Street and Number",
+          "colony": "Neighborhood",
+          "city": "City",
+          "state": "State",
+          "zipCode": "Zip Code"
+        },
+        "contactInformation": {
+          "title": "Contact Information",
+          "mobilePhone": "Mobile Phone",
+          "officePhone": "Work Phone",
+          "email": "Email"
+        }
+      }
+    },
+    "tooltips": {
+      "deactivateUser": "Deactivate User",
+      "deleteUser": "Delete User",
+      "seeDetails": "See Details",
+      "cancelPolicy": "Cancel Policy",
+      "editBeneficiary": "Edit Beneficiary"
+    },
+    "notifMessages": {},
+    "sweetAlertMessages": {},
+    "emptyDataPlaceholders": {
+      "title": "No Available Data",
+      "paymentTabSubtitle": "We did not find any paid installments for this policy in our system.",
+      "additionalInsuredTabSubtitle": "We did not find any additional insured for this policy in our system.",
+      "mainInsuredTabSubtitle": "We did not find any main insured for this policy in our system."
+    },
+    "tabs": {
+      "beneficiaries": {
+        "name": "Beneficiaries",
+        "tableTitle": "Beneficiaries Information",
+        "tableColumns": {
+          "name": "Name",
+          "relation": "Relation",
+          "endDate": "End Date",
+          "percentage": "Percentage"
+        },
+        "detailsModal": "Beneficiary Details",
+        "editModal": {
+          "title": "Edit Beneficiary",
+          "messageTitleSuccess": "Percentages Distributed Correctly!",
+          "messageTitleError": "Total Percentages should be equal to 100%",
+          "subtitleSuccess": "Percentages Total",
+          "subtitleError": "Percentage Required"
+        }
+      },
+      "coverages": {
+        "name": "Coverages",
+        "tableTitle": "Coverages Information",
+        "tableColumns": {
+          "coverageName": "Coverage Name",
+          "planIdentification": "Plan Identification",
+          "planFee": "Plan Fee",
+          "coveragePremium": "Coverage Premium",
+          "benefitAmount": "Benefit Amount",
+          "paymentMethod": "Payment Method",
+          "paymentType": "Payment Type"
+        }
+      },
+      "payments": {},
+      "additionalInsured": {},
+      "mainInsured": {}
+    }
+  },
+  "auth": {
+    "title": "Rejoignez-nous maintenant",
+    "subtitle": "Commencez par créer votre compte",
+    "label": {
+      "promotional": "Recevez des offres promotionnelles"
+    },
+    "action": {
+      "login": "J'ai déjà un compte",
+      "signup": "Créer un compte"
+    },
+    "placeholder": {
+      "name": "Nom",
+      "email": "Adresse électronique",
+      "password": "Mot de passe",
+      "passwordCheck": "Vérification du mot de passe"
+    },
+    "user": {
+      "sesions": "Désolé, vous devez être connecté pour accéder à cette section (tout fonctionnera).",
+      "emails": "Erreur d'authentification. Courriel ou mot de passe incorrect"
+    },
+    "errors": {
+      "name": {
+        "required": "Votre nom, prénom est obligatoire"
+      },
+      "email": {
+        "required": "Entrez votre email, il sera nécessaire pour vous connecter",
+        "format": "Veuillez entrer une adresse électronique valide"
+      },
+      "password": {
+        "required": "Entrez votre mot de passe avec au moins 8 caractères, il vous sera demandé pour vous connecter",
+        "length": "Le mot de passe doit contenir au moins 8 caractères"
+      },
+      "passwordCheck": {
+        "required": "Veuillez confirmer votre mot de passe",
+        "match": "Le mot de passe ne correspond pas"
+      }
+    }
+  }
+}
