@@ -1,0 +1,7 @@
+{
+    "i18n-ally.localesPaths": [
+        "src/locales",
+        "src/assets/illustrations/messages",
+        "src/components/partials/inbox/messages"
+    ]
+}
